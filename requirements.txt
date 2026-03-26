@@ -1,0 +1,37 @@
+
+# ============================================================
+# Heart Disease Risk Prediction - Requirements
+# ============================================================
+# Compatible with Python 3.10, 3.11, 3.12, 3.14+
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# For GPU support (PyTorch):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu122
+# ============================================================
+
+# Core ML & Deep Learning (PyTorch)
+torch>=2.9.0
+torchvision>=0.18.0
+torchaudio>=2.1.0
+
+# Data Science (latest stable versions with Python 3.14 support)
+numpy>=2.0.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Web UI
+streamlit>=1.32.0
+streamlit-option-menu>=0.3.6
+
+# Utilities
+joblib>=1.4.0
+python-dotenv>=1.0.0
+
+# Data Download
+requests>=2.31.0
